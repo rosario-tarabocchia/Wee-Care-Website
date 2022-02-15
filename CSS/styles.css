@@ -259,12 +259,13 @@ fieldset[disabled] .program-button.active {
 
 .forms-button-row {
 padding: 2% 8% 4% 8%;
+margin: 0;
 
 }
 
 .forms-button-col {
 
-  padding: 0;
+  padding: 3%;
 
 }
 
@@ -274,7 +275,7 @@ padding: 2% 8% 4% 8%;
 }
 
 .forms-button {
-  margin: 5% 0% 0 15%;
+  margin: 5% 0% 0 0%;
 
 }
 
@@ -395,8 +396,8 @@ padding: 2% 8% 4% 8%;
     text-align: center;
   }
 
-  .forms-button {
+  /* .forms-button {
     margin: 0% 0% 0 0%;
 
-  }
+  } */
 }
