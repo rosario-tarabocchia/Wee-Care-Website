@@ -9,12 +9,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu";
 }
 
+h5 {
+
+color: #FFFD95;
+
+}
+
 hr {
   border-style: dotted none none none;
   height: 0;
   border-width: 5px;
   width: 10%;
   margin: 20px auto;
+}
+
+.fa-circle-info {
+  color: #FFF;
 }
 
 /* Title and Nav Bar Section*/
@@ -285,23 +295,23 @@ margin: 0;
 }
 
 /* Staff and Teachers Page */
-.staff {
+.staff, .our-programs {
   background-color: #39A388;
 }
 
-.staff-teachers-heading {
+.staff-teachers-heading, .program-heading {
   font-weight: 700;
   font-size: 3rem;
 }
 
-.staff-headline-div {
+.staff-headline-div, .program-headline-div {
   text-align: center;
   padding: 2% 0;
 
   color: #FFFD95;
 }
 
-.staff-div-top {
+.staff-div-top, .program-div-top {
   padding: 0 0 2% 17.5%;
   margin: 0;
 }
@@ -338,9 +348,21 @@ margin: 0;
   padding-top: 1%;
 }
 
-.about-staff {
+.about-staff, .about-program, .tuition-price{
   font-size: 1.3rem;
 }
+
+.tuition {
+  color: #FFFD95;
+  margin-bottom: 0;
+
+}
+
+.tuition-price {
+
+  padding-top: -10px;
+}
+
 
 
 #teachers {
