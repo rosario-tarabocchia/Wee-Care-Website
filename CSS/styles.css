@@ -407,3 +407,13 @@ margin: 0;
 
   } */
 }
+
+@media (min-height: 830px) {
+
+  .footer-div {
+
+      margin-bottom: 10%;
+
+  }
+
+}
