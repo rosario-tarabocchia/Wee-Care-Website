@@ -138,7 +138,7 @@ fieldset[disabled] .tour-forms-button.active {
   text-align: center;
 }
 
-#programs-homepage p {
+#programs-homepage p, #special-programs p{
   color: #696969;
   font-size: 1.25rem;
 }
@@ -316,12 +316,12 @@ margin: 0;
   margin: 0;
 }
 
-.staff-div-bottom {
+.staff-div-bottom, .program-div-bottom {
   padding: 2% 0 4% 15%;
   margin: 0;
 }
 
-.staff-info-div {
+.staff-info-div, .program-info-div {
   padding-top: 2%;
 }
 
@@ -335,11 +335,11 @@ margin: 0;
   height: auto;
 }
 
-.staff-name {
+.staff-name, .program-name {
   color: #FFC3E7;
 }
 
-.staff-pics {
+.staff-pics, .program-pics {
   width: 250px;
   height: auto;
 }
@@ -353,7 +353,7 @@ margin: 0;
 
 }
 
-.about-staff, .about-program, .tuition-price{
+.about-staff, .about-program {
   font-size: 1.3rem;
 }
 
@@ -364,23 +364,33 @@ margin: 0;
 }
 
 .tuition-price {
-
+  font-size: 1rem;
   padding-top: -10px;
 }
 
-.programs-button {
-    padding-top: 10px;
+.terms-conditions {
+    font-size: .75rem;
+
+}
+
+.registration-terms {
+  text-align: center;
 
 }
 
 
 
-#teachers {
+#teachers, #special-programs {
   background-color: #F0F0F0;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
-.teacher-headline-div {
+#special-programs {
+  padding: 2% 3% 4%;
+  text-align: center;
+}
+
+.teacher-headline-div, .special-program-div {
   text-align: center;
   padding: 2% 0 1%;
   color: #00028C;
