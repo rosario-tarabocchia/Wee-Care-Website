@@ -138,7 +138,7 @@ fieldset[disabled] .tour-forms-button.active {
   text-align: center;
 }
 
-#programs-homepage p, #special-programs p{
+#programs-homepage p, .programs-homepage-section-heading p{
   color: #696969;
   font-size: 1.25rem;
 }
@@ -148,6 +148,7 @@ fieldset[disabled] .tour-forms-button.active {
   font-weight: 700;
   font-size: 3rem;
 }
+
 
 .mandela-quote {
   font-size: 1.25rem;
@@ -427,6 +428,24 @@ margin: 0;
 
 }
 
+.chapel-message {
+    font-size: 1.275rem;
+    color: #696969;
+}
+
+.move-grove-message {
+
+font-size: 1.65rem;
+color: #696969;
+
+}
+
+.lunch-bunch-message {
+  font-size: 1.25rem;
+  color: #696969;
+
+}
+
 /* Media */
 
 @media (max-width: 1028px) {
@@ -444,10 +463,6 @@ margin: 0;
     text-align: center;
   }
 
-  /* .forms-button {
-    margin: 0% 0% 0 0%;
-
-  } */
 }
 
 @media (min-height: 830px) {
