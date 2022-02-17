@@ -348,6 +348,11 @@ margin: 0;
   padding-top: 1%;
 }
 
+.program-pic-div-right {
+  padding-top: 5%;
+
+}
+
 .about-staff, .about-program, .tuition-price{
   font-size: 1.3rem;
 }
@@ -361,6 +366,11 @@ margin: 0;
 .tuition-price {
 
   padding-top: -10px;
+}
+
+.programs-button {
+    padding-top: 10px;
+
 }
 
 
@@ -414,12 +424,12 @@ margin: 0;
     text-align: center;
   }
 
-  .staff-div-top {
+  .staff-div-top, .program-div-top {
     padding: 0 3% 3%;
     text-align: center;
   }
 
-  .staff-div-bottom {
+  .staff-div-bottom, .program-div-bottom {
     padding: 3% 3% 0%;
     text-align: center;
   }
