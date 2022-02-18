@@ -5,14 +5,13 @@ body {
   color: #FFF;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h6 {
   font-family: "Ubuntu";
 }
 
 h5 {
-
 color: #FFFD95;
-
+font-family: "Ubuntu";
 }
 
 hr {
@@ -53,7 +52,7 @@ hr {
   height: auto;
 }
 
-/* Welcome Section */
+/* Welcome Section Homepage */
 .welcome-div {
   padding: 2% 4% 4% 7%;
   background-color: #39A388;
@@ -76,7 +75,7 @@ hr {
 }
 
 .about-wee {
-  padding: 10px 20px 10px 0px;
+  padding: 10px 20px 10px;
   font-size: 1.3rem;
 }
 
@@ -149,7 +148,6 @@ fieldset[disabled] .tour-forms-button.active {
   font-size: 3rem;
 }
 
-
 .mandela-quote {
   font-size: 1.25rem;
   padding-bottom: 15px;
@@ -214,57 +212,16 @@ fieldset[disabled] .program-button.active {
   background-color: #FFFFFF;
 }
 
-/* Footers */
-#footer {
-  background-color: #01676B;
-  padding: 10px 0px;
-  border: 0 10px 25px;
-  text-align: center;
-}
-
-.footer-icon {
-  font-size: 2rem;
-  padding: 15px 10px 10px;
-}
-
-.phone-numbers {
-  font-family: "Ubuntu";
-  color: #ffffff;
-}
-
-.contact-type {
-  color: #FFFD95;
-}
-
-.copyright-text {
-  font-family: "Lato";
-  color: #ffffff;
-  padding-bottom: 5px;
-}
-
-.footer-icon {
-  color: #FFF;
-}
-
-.footer-icon:hover {
-  color: #FFC3E7;
-}
-
 /* Forms Page */
-#forms {
-
-}
 
 .forms-button-row{
   background-color: #F0F0F0;
-
 }
 
 .forms-head-div {
   text-align: center;
   padding: 0% 4% 2% 4%;
   background-color: #39A388;
-
 }
 
 .forms-header {
@@ -274,22 +231,9 @@ fieldset[disabled] .program-button.active {
 }
 
 .forms-button-row {
-padding: 3% 0% 4%;
-margin: 0;
-
+  padding: 3% 0% 4%;
+  margin: 0;
 }
-
-/* .forms-container {
-  margin: 0 0;
-  padding: 0% 4% 2% 4%;
-
-} */
-
-/* .forms-button-col {
-
-  padding: 3%;
-
-} */
 
 .forms-message {
   font-size: 1.25rem;
@@ -298,10 +242,14 @@ margin: 0;
 
 .forms-button {
   margin: 5% 0% 0 0%;
-
 }
 
-/* Staff and Teachers Page */
+/* Shared Staff and Programs CSS */
+#teachers, #special-programs {
+  background-color: #F0F0F0;
+  padding-bottom: 40px;
+}
+
 .staff, .our-programs {
   background-color: #39A388;
 }
@@ -351,50 +299,8 @@ margin: 0;
   height: auto;
 }
 
-.staff-pic-div-right {
-  padding-top: 1%;
-}
-
-.program-pic-div-right {
-  padding-top: 5%;
-
-}
-
 .about-staff, .about-program {
   font-size: 1.3rem;
-}
-
-.tuition {
-  color: #FFFD95;
-  margin-bottom: 0;
-
-}
-
-.tuition-price {
-  font-size: 1rem;
-  padding-top: -10px;
-}
-
-.terms-conditions {
-    font-size: .75rem;
-
-}
-
-.registration-terms {
-  text-align: center;
-
-}
-
-
-
-#teachers, #special-programs {
-  background-color: #F0F0F0;
-  padding-bottom: 40px;
-}
-
-#special-programs {
-  padding: 2% 3% 4%;
-  text-align: center;
 }
 
 .teacher-headline-div, .special-program-div {
@@ -403,9 +309,15 @@ margin: 0;
   color: #00028C;
 }
 
+/* Staff Teachers Page */
+
 .teacher-name-text {
   color: #01676B;
   text-align: center;
+}
+
+.staff-pic-div-right {
+  padding-top: 1%;
 }
 
 .teacher-image {
@@ -414,7 +326,6 @@ margin: 0;
   margin: auto;
   border-radius: 25px;
 }
-
 
 .grade-text {
   font-family: "Lato";
@@ -426,12 +337,39 @@ margin: 0;
 
 .prev-button {
   margin-left: 4%;
-
 }
 
 .next-button {
   margin-right: 4%;
+}
 
+/* Programs Page */
+
+#special-programs {
+  padding: 2% 3% 4%;
+  text-align: center;
+}
+
+.program-pic-div-right {
+  padding-top: 5%;
+}
+
+.tuition {
+  color: #FFFD95;
+  margin-bottom: 0;
+}
+
+.tuition-price {
+  font-size: 1rem;
+  padding-top: -10px;
+}
+
+.terms-conditions {
+    font-size: .75rem;
+}
+
+.registration-terms {
+  text-align: center;
 }
 
 .chapel-message {
@@ -440,20 +378,54 @@ margin: 0;
 }
 
 .move-grove-message {
-
 font-size: 1.65rem;
 color: #696969;
-
 }
 
 .lunch-bunch-message {
   font-size: 1.25rem;
   color: #696969;
+}
 
+/* Forms Page */
+
+/* Footers */
+#footer {
+  background-color: #01676B;
+  padding: 10px 0px;
+  border: 0 10px 25px;
+  text-align: center;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  padding: 15px 10px 10px;
+}
+
+.phone-numbers {
+  font-family: "Ubuntu";
+  color: #ffffff;
+}
+
+.contact-type {
+  color: #FFFD95;
+}
+
+.copyright-text {
+  font-family: "Lato";
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.footer-icon {
+  color: #FFF;
+}
+
+.footer-icon:hover {
+  color: #FFC3E7;
 }
 
 /* Media */
-
 @media (max-width: 1028px) {
   .welcome-div-left {
     text-align: center;
@@ -468,7 +440,6 @@ color: #696969;
     padding: 3% 3% 0%;
     text-align: center;
   }
-
 }
 
 @media (min-height: 830px) {
@@ -478,5 +449,4 @@ color: #696969;
       margin-bottom: 15%;
 
   }
-
 }
