@@ -54,7 +54,7 @@ hr {
 
 /* Welcome Section Homepage */
 .welcome-div {
-  padding: 2% 4% 4% 7%;
+  padding: 4%;
   background-color: #39A388;
   margin: 0;
 }
@@ -66,7 +66,7 @@ hr {
 }
 
 .welcome-div-right {
-  text-align: right;
+  padding-right: 1%;
 }
 
 .welcome-heading {
@@ -75,7 +75,7 @@ hr {
 }
 
 .about-wee {
-  padding: 10px 20px 10px;
+  padding: 10px 20px 10px 0px;
   font-size: 1.3rem;
 }
 
@@ -426,6 +426,13 @@ color: #696969;
 }
 
 /* Media */
+
+@media (min-width: 1430px) {
+  .welcome-div {
+    padding: 2% 4% 4% 7%;
+  }
+
+}
 @media (max-width: 1028px) {
   .welcome-div-left {
     text-align: center;
@@ -442,11 +449,11 @@ color: #696969;
   }
 }
 
-@media (min-height: 830px) {
+/* @media (min-height: 830px) {
 
   .footer-div {
 
       margin-bottom: 15%;
 
   }
-}
+} */
