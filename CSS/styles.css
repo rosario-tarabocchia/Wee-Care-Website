@@ -274,16 +274,22 @@ fieldset[disabled] .program-button.active {
 }
 
 .forms-button-row {
-padding: 2% 8% 4% 8%;
+padding: 3% 0% 4%;
 margin: 0;
 
 }
 
-.forms-button-col {
+/* .forms-container {
+  margin: 0 0;
+  padding: 0% 4% 2% 4%;
+
+} */
+
+/* .forms-button-col {
 
   padding: 3%;
 
-}
+} */
 
 .forms-message {
   font-size: 1.25rem;
@@ -429,7 +435,7 @@ margin: 0;
 }
 
 .chapel-message {
-    font-size: 1.275rem;
+    font-size: 1.27rem;
     color: #696969;
 }
 
@@ -469,7 +475,7 @@ color: #696969;
 
   .footer-div {
 
-      margin-bottom: 10%;
+      margin-bottom: 15%;
 
   }
 
