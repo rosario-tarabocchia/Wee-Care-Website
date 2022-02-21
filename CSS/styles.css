@@ -241,7 +241,8 @@ fieldset[disabled] .program-button.active {
 }
 
 .forms-button {
-  margin: 0% 0% 3% 0%;
+  margin: 0% 0% 10% 0%;
+  height: 40%;
   width: 100%;
 }
 
@@ -436,9 +437,9 @@ fieldset[disabled] .program-button.active {
     text-align: left;
   }
 
-  .program-pic-div-right {
-    padding-top: 3%;
-  }
+  /* .program-pic-div-right {
+    padding-top: 5%;
+  } */
 
   .staff-div-bottom, .program-div-bottom {
     padding: 3% 8%;
@@ -460,6 +461,7 @@ fieldset[disabled] .program-button.active {
 @media (max-width: 768px) {
   .forms-button {
     width: 70%;
+    height: 30%;
 
   }
 
